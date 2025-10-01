@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grace Community Church - Management Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <div class="logo-icon">✝</div>
+                <div>
+                    <h2>Grace Community Church</h2>
+                    <p style="font-size: 0.8rem; opacity: 0.9;">Management System</p>
+                </div>
+            </div>
+            <div class="user-info">
+                <span>Welcome, Pastor John</span>
+                <div class="user-avatar">PJ</div>
+                <a href="#" class="logout-btn">Logout</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <nav class="sidebar">
+            <a href="#" class="nav-item active">
+                <span class="nav-icon">📊</span>
+                Dashboard
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">👥</span>
+                Members
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📅</span>
+                Events
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">💰</span>
+                Donations
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📊</span>
+                Attendance
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🎤</span>
+                Sermons
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">👥</span>
+                Small Groups
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">🙏</span>
+                Prayer Requests
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📧</span>
+                Communications
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">📈</span>
+                Reports
+            </a>
+            <a href="#" class="nav-item">
+                <span class="nav-icon">⚙️</span>
+                Settings
+            </a>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="page-header">
+                <h1>Dashboard</h1>
+                <p>Welcome back! Here's what's happening at Grace Community Church today.</p>
+            </div>
+
+            <!-- Stats Cards -->
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-title">Total Members</div>
+                        <div class="stat-icon members">👥</div>
+                    </div>
+                    <div class="stat-value">324</div>
+                    <div class="stat-change">↗ +12 this month</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-title">Upcoming Events</div>
+                        <div class="stat-icon events">📅</div>
+                    </div>
+                    <div class="stat-value">8</div>
+                    <div class="stat-change">↗ 3 this week</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-title">Monthly Donations</div>
+                        <div class="stat-icon donations">💰</div>
+                    </div>
+                    <div class="stat-value">$8,450</div>
+                    <div class="stat-change">↗ +5.2% vs last month</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-header">
+                        <div class="stat-title">Last Sunday</div>
+                        <div class="stat-icon attendance">📊</div>
+                    </div>
+                    <div class="stat-value">187</div>
+                    <div class="stat-change">↗ 92% attendance rate</div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="quick-actions">
+                <h2 class="section-title">
+                    <span>⚡</span>
+                    Quick Actions
+                </h2>
+                <div class="action-grid">
+                    <a href="#" class="action-btn">
+                        <div class="action-icon">➕</div>
+                        <div>
+                            <h4>Add New Member</h4>
+                            <p>Register new church member</p>
+                        </div>
+                    </a>
+                    <a href="#" class="action-btn">
+                        <div class="action-icon">📅</div>
+                        <div>
+                            <h4>Create Event</h4>
+                            <p>Schedule church event</p>
+                        </div>
+                    </a>
+                    <a href="#" class="action-btn">
+                        <div class="action-icon">📊</div>
+                        <div>
+                            <h4>Take Attendance</h4>
+                            <p>Record service attendance</p>
+                        </div>
+                    </a>
+                    <a href="#" class="action-btn">
+                        <div class="action-icon">💰</div>
+                        <div>
+                            <h4>Record Donation</h4>
+                            <p>Log church donation</p>
+                        </div>
+                    </a>
+                    <a href="#" class="action-btn">
+                        <div class="action-icon">📧</div>
+                        <div>
+                            <h4>Send Message</h4>
+                            <p>Communicate with members</p>
+                        </div>
+                    </a>
+                    <a href="#" class="action-btn">
+                        <div class="action-icon">🎤</div>
+                        <div>
+                            <h4>Upload Sermon</h4>
+                            <p>Add new sermon recording</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Recent Activity & Upcoming Events -->
+            <div class="recent-activity">
+                <div class="activity-card">
+                    <h2 class="section-title">
+                        <span>🕒</span>
+                        Recent Activity
+                    </h2>
+                    <div class="activity-list">
+                        <div class="activity-item">
+                            <div class="activity-avatar">MJ</div>
+                            <div class="activity-content">
+                                <h4>Mary Johnson joined the church</h4>
+                                <p>New member registration completed</p>
+                            </div>
+                            <span class="activity-time">2h ago</span>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-avatar">DP</div>
+                            <div class="activity-content">
+                                <h4>David Park donated $150</h4>
+                                <p>Monthly tithe contribution</p>
+                            </div>
+                            <span class="activity-time">5h ago</span>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-avatar">SB</div>
+                            <div class="activity-content">
+                                <h4>Sarah Brown submitted prayer request</h4>
+                                <p>Family healing prayer needed</p>
+                            </div>
+                            <span class="activity-time">1d ago</span>
+                        </div>
+                        <div class="activity-item">
+                            <div class="activity-avatar">RT</div>
+                            <div class="activity-content">
+                                <h4>Robert Taylor volunteered</h4>
+                                <p>Signed up for youth ministry</p>
+                            </div>
+                            <span class="activity-time">2d ago</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="activity-card">
+                    <h2 class="section-title">
+                        <span>📅</span>
+                        Upcoming Events
+                    </h2>
+                    <div class="activity-list">
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="event-day">15</div>
+                                <div class="event-month">Dec</div>
+                            </div>
+                            <div class="event-details">
+                                <h4>Christmas Cantata</h4>
+                                <p>7:00 PM • Main Sanctuary</p>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="event-day">18</div>
+                                <div class="event-month">Dec</div>
+                            </div>
+                            <div class="event-details">
+                                <h4>Youth Group Meeting</h4>
+                                <p>6:30 PM • Youth Hall</p>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="event-day">22</div>
+                                <div class="event-month">Dec</div>
+                            </div>
+                            <div class="event-details">
+                                <h4>Community Outreach</h4>
+                                <p>10:00 AM • Downtown Shelter</p>
+                            </div>
+                        </div>
+                        <div class="event-item">
+                            <div class="event-date">
+                                <div class="event-day">31</div>
+                                <div class="event-month">Dec</div>
+                            </div>
+                            <div class="event-details">
+                                <h4>New Year's Eve Service</h4>
+                                <p>11:00 PM • Main Sanctuary</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        // Add some interactivity
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Remove active class from all items
+                document.querySelectorAll('.nav-item').forEach(navItem => {
+                    navItem.classList.remove('active');
+                });
+                
+                // Add active class to clicked item
+                this.classList.add('active');
+            });
+        });
+
+        // Add click animation to stat cards
+        document.querySelectorAll('.stat-card').forEach(card => {
+            card.addEventListener('click', function() {
+                this.style.transform = 'scale(0.98)';
+                setTimeout(() => {
+                    this.style.transform = '';
+                }, 150);
+            });
+        });
+
+        // Add hover effect to action buttons
+        document.querySelectorAll('.action-btn').forEach(btn => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                // Create ripple effect
+                const ripple = document.createElement('div');
+                ripple.style.position = 'absolute';
+                ripple.style.borderRadius = '50%';
+                ripple.style.background = 'rgba(212, 175, 55, 0.3)';
+                ripple.style.transform = 'scale(0)';
+                ripple.style.animation = 'ripple 0.6s linear';
+                ripple.style.left = '50%';
+                ripple.style.top = '50%';
+                ripple.style.width = '20px';
+                ripple.style.height = '20px';
+                ripple.style.marginLeft = '-10px';
+                ripple.style.marginTop = '-10px';
+                
+                this.style.position = 'relative';
+                this.appendChild(ripple);
+                
+                setTimeout(() => {
+                    ripple.remove();
+                }, 600);
+            });
+        });
+
+        // Add CSS for ripple animation
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes ripple {
+                to {
+                    transform: scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+        document.head.appendChild(style);
+    </script>
+</body>
+</html>
